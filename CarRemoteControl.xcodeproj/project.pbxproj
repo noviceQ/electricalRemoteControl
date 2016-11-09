@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16298C8A1DD330260011220D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16298C891DD330260011220D /* main.m */; };
+		16298C8D1DD330260011220D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16298C8C1DD330260011220D /* AppDelegate.m */; };
+		16298C901DD330260011220D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16298C8F1DD330260011220D /* ViewController.m */; };
+		16298C931DD330260011220D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16298C911DD330260011220D /* Main.storyboard */; };
+		16298C951DD330260011220D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16298C941DD330260011220D /* Assets.xcassets */; };
+		16298C981DD330260011220D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16298C961DD330260011220D /* LaunchScreen.storyboard */; };
+		16298CA31DD330260011220D /* CarRemoteControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16298CA21DD330260011220D /* CarRemoteControlTests.m */; };
+		16298CAE1DD330260011220D /* CarRemoteControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16298CAD1DD330260011220D /* CarRemoteControlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16298C9F1DD330260011220D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16298C7D1DD330260011220D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16298C841DD330260011220D;
+			remoteInfo = CarRemoteControl;
+		};
+		16298CAA1DD330260011220D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16298C7D1DD330260011220D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16298C841DD330260011220D;
+			remoteInfo = CarRemoteControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16298C851DD330260011220D /* CarRemoteControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRemoteControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16298C891DD330260011220D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16298C8B1DD330260011220D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16298C8C1DD330260011220D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16298C8E1DD330260011220D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16298C8F1DD330260011220D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16298C921DD330260011220D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16298C941DD330260011220D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16298C971DD330260011220D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16298C991DD330260011220D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16298C9E1DD330260011220D /* CarRemoteControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarRemoteControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16298CA21DD330260011220D /* CarRemoteControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarRemoteControlTests.m; sourceTree = "<group>"; };
+		16298CA41DD330260011220D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16298CA91DD330260011220D /* CarRemoteControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarRemoteControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16298CAD1DD330260011220D /* CarRemoteControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarRemoteControlUITests.m; sourceTree = "<group>"; };
+		16298CAF1DD330260011220D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16298C821DD330260011220D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16298C9B1DD330260011220D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16298CA61DD330260011220D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16298C7C1DD330260011220D = {
+			isa = PBXGroup;
+			children = (
+				16298C871DD330260011220D /* CarRemoteControl */,
+				16298CA11DD330260011220D /* CarRemoteControlTests */,
+				16298CAC1DD330260011220D /* CarRemoteControlUITests */,
+				16298C861DD330260011220D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16298C861DD330260011220D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16298C851DD330260011220D /* CarRemoteControl.app */,
+				16298C9E1DD330260011220D /* CarRemoteControlTests.xctest */,
+				16298CA91DD330260011220D /* CarRemoteControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16298C871DD330260011220D /* CarRemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				16298C8B1DD330260011220D /* AppDelegate.h */,
+				16298C8C1DD330260011220D /* AppDelegate.m */,
+				16298C8E1DD330260011220D /* ViewController.h */,
+				16298C8F1DD330260011220D /* ViewController.m */,
+				16298C911DD330260011220D /* Main.storyboard */,
+				16298C941DD330260011220D /* Assets.xcassets */,
+				16298C961DD330260011220D /* LaunchScreen.storyboard */,
+				16298C991DD330260011220D /* Info.plist */,
+				16298C881DD330260011220D /* Supporting Files */,
+			);
+			path = CarRemoteControl;
+			sourceTree = "<group>";
+		};
+		16298C881DD330260011220D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16298C891DD330260011220D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16298CA11DD330260011220D /* CarRemoteControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				16298CA21DD330260011220D /* CarRemoteControlTests.m */,
+				16298CA41DD330260011220D /* Info.plist */,
+			);
+			path = CarRemoteControlTests;
+			sourceTree = "<group>";
+		};
+		16298CAC1DD330260011220D /* CarRemoteControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16298CAD1DD330260011220D /* CarRemoteControlUITests.m */,
+				16298CAF1DD330260011220D /* Info.plist */,
+			);
+			path = CarRemoteControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16298C841DD330260011220D /* CarRemoteControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16298CB21DD330260011220D /* Build configuration list for PBXNativeTarget "CarRemoteControl" */;
+			buildPhases = (
+				16298C811DD330260011220D /* Sources */,
+				16298C821DD330260011220D /* Frameworks */,
+				16298C831DD330260011220D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarRemoteControl;
+			productName = CarRemoteControl;
+			productReference = 16298C851DD330260011220D /* CarRemoteControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16298C9D1DD330260011220D /* CarRemoteControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16298CB51DD330260011220D /* Build configuration list for PBXNativeTarget "CarRemoteControlTests" */;
+			buildPhases = (
+				16298C9A1DD330260011220D /* Sources */,
+				16298C9B1DD330260011220D /* Frameworks */,
+				16298C9C1DD330260011220D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16298CA01DD330260011220D /* PBXTargetDependency */,
+			);
+			name = CarRemoteControlTests;
+			productName = CarRemoteControlTests;
+			productReference = 16298C9E1DD330260011220D /* CarRemoteControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16298CA81DD330260011220D /* CarRemoteControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16298CB81DD330260011220D /* Build configuration list for PBXNativeTarget "CarRemoteControlUITests" */;
+			buildPhases = (
+				16298CA51DD330260011220D /* Sources */,
+				16298CA61DD330260011220D /* Frameworks */,
+				16298CA71DD330260011220D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16298CAB1DD330260011220D /* PBXTargetDependency */,
+			);
+			name = CarRemoteControlUITests;
+			productName = CarRemoteControlUITests;
+			productReference = 16298CA91DD330260011220D /* CarRemoteControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16298C7D1DD330260011220D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xinmei365;
+				TargetAttributes = {
+					16298C841DD330260011220D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					16298C9D1DD330260011220D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16298C841DD330260011220D;
+					};
+					16298CA81DD330260011220D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 16298C841DD330260011220D;
+					};
+				};
+			};
+			buildConfigurationList = 16298C801DD330260011220D /* Build configuration list for PBXProject "CarRemoteControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16298C7C1DD330260011220D;
+			productRefGroup = 16298C861DD330260011220D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16298C841DD330260011220D /* CarRemoteControl */,
+				16298C9D1DD330260011220D /* CarRemoteControlTests */,
+				16298CA81DD330260011220D /* CarRemoteControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16298C831DD330260011220D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16298C981DD330260011220D /* LaunchScreen.storyboard in Resources */,
+				16298C951DD330260011220D /* Assets.xcassets in Resources */,
+				16298C931DD330260011220D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16298C9C1DD330260011220D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16298CA71DD330260011220D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16298C811DD330260011220D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16298C901DD330260011220D /* ViewController.m in Sources */,
+				16298C8D1DD330260011220D /* AppDelegate.m in Sources */,
+				16298C8A1DD330260011220D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16298C9A1DD330260011220D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16298CA31DD330260011220D /* CarRemoteControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16298CA51DD330260011220D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16298CAE1DD330260011220D /* CarRemoteControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16298CA01DD330260011220D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16298C841DD330260011220D /* CarRemoteControl */;
+			targetProxy = 16298C9F1DD330260011220D /* PBXContainerItemProxy */;
+		};
+		16298CAB1DD330260011220D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16298C841DD330260011220D /* CarRemoteControl */;
+			targetProxy = 16298CAA1DD330260011220D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16298C911DD330260011220D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16298C921DD330260011220D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16298C961DD330260011220D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16298C971DD330260011220D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16298CB01DD330260011220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16298CB11DD330260011220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16298CB31DD330260011220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarRemoteControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmei365.CarRemoteControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16298CB41DD330260011220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarRemoteControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmei365.CarRemoteControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16298CB61DD330260011220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarRemoteControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmei365.CarRemoteControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarRemoteControl.app/CarRemoteControl";
+			};
+			name = Debug;
+		};
+		16298CB71DD330260011220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarRemoteControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmei365.CarRemoteControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarRemoteControl.app/CarRemoteControl";
+			};
+			name = Release;
+		};
+		16298CB91DD330260011220D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarRemoteControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmei365.CarRemoteControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarRemoteControl;
+			};
+			name = Debug;
+		};
+		16298CBA1DD330260011220D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarRemoteControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinmei365.CarRemoteControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarRemoteControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16298C801DD330260011220D /* Build configuration list for PBXProject "CarRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16298CB01DD330260011220D /* Debug */,
+				16298CB11DD330260011220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16298CB21DD330260011220D /* Build configuration list for PBXNativeTarget "CarRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16298CB31DD330260011220D /* Debug */,
+				16298CB41DD330260011220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16298CB51DD330260011220D /* Build configuration list for PBXNativeTarget "CarRemoteControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16298CB61DD330260011220D /* Debug */,
+				16298CB71DD330260011220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16298CB81DD330260011220D /* Build configuration list for PBXNativeTarget "CarRemoteControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16298CB91DD330260011220D /* Debug */,
+				16298CBA1DD330260011220D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16298C7D1DD330260011220D /* Project object */;
+}
