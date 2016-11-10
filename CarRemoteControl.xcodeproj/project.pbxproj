@@ -15,6 +15,7 @@
 		16298C981DD330260011220D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16298C961DD330260011220D /* LaunchScreen.storyboard */; };
 		16298CA31DD330260011220D /* CarRemoteControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16298CA21DD330260011220D /* CarRemoteControlTests.m */; };
 		16298CAE1DD330260011220D /* CarRemoteControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16298CAD1DD330260011220D /* CarRemoteControlUITests.m */; };
+		16298CBD1DD3473A0011220D /* CRSendMessageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 16298CBC1DD3473A0011220D /* CRSendMessageOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		16298CA91DD330260011220D /* CarRemoteControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarRemoteControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16298CAD1DD330260011220D /* CarRemoteControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarRemoteControlUITests.m; sourceTree = "<group>"; };
 		16298CAF1DD330260011220D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16298CBB1DD3473A0011220D /* CRSendMessageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRSendMessageOperation.h; sourceTree = "<group>"; };
+		16298CBC1DD3473A0011220D /* CRSendMessageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRSendMessageOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				16298C8C1DD330260011220D /* AppDelegate.m */,
 				16298C8E1DD330260011220D /* ViewController.h */,
 				16298C8F1DD330260011220D /* ViewController.m */,
+				16298CBB1DD3473A0011220D /* CRSendMessageOperation.h */,
+				16298CBC1DD3473A0011220D /* CRSendMessageOperation.m */,
 				16298C911DD330260011220D /* Main.storyboard */,
 				16298C941DD330260011220D /* Assets.xcassets */,
 				16298C961DD330260011220D /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16298CBD1DD3473A0011220D /* CRSendMessageOperation.m in Sources */,
 				16298C901DD330260011220D /* ViewController.m in Sources */,
 				16298C8D1DD330260011220D /* AppDelegate.m in Sources */,
 				16298C8A1DD330260011220D /* main.m in Sources */,
