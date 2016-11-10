@@ -16,6 +16,7 @@
 		16298CA31DD330260011220D /* CarRemoteControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16298CA21DD330260011220D /* CarRemoteControlTests.m */; };
 		16298CAE1DD330260011220D /* CarRemoteControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16298CAD1DD330260011220D /* CarRemoteControlUITests.m */; };
 		16298CBD1DD3473A0011220D /* CRSendMessageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 16298CBC1DD3473A0011220D /* CRSendMessageOperation.m */; };
+		16B946F81DD4A228007083CE /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = 16B946F71DD4A228007083CE /* server.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		16298CAF1DD330260011220D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16298CBB1DD3473A0011220D /* CRSendMessageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRSendMessageOperation.h; sourceTree = "<group>"; };
 		16298CBC1DD3473A0011220D /* CRSendMessageOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRSendMessageOperation.m; sourceTree = "<group>"; };
+		16B946F71DD4A228007083CE /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				16298C8F1DD330260011220D /* ViewController.m */,
 				16298CBB1DD3473A0011220D /* CRSendMessageOperation.h */,
 				16298CBC1DD3473A0011220D /* CRSendMessageOperation.m */,
+				16B946F71DD4A228007083CE /* server.c */,
 				16298C911DD330260011220D /* Main.storyboard */,
 				16298C941DD330260011220D /* Assets.xcassets */,
 				16298C961DD330260011220D /* LaunchScreen.storyboard */,
@@ -281,6 +284,7 @@
 				16298CBD1DD3473A0011220D /* CRSendMessageOperation.m in Sources */,
 				16298C901DD330260011220D /* ViewController.m in Sources */,
 				16298C8D1DD330260011220D /* AppDelegate.m in Sources */,
+				16B946F81DD4A228007083CE /* server.c in Sources */,
 				16298C8A1DD330260011220D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +517,7 @@
 				16298CB41DD330260011220D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16298CB51DD330260011220D /* Build configuration list for PBXNativeTarget "CarRemoteControlTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				16298CB71DD330260011220D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16298CB81DD330260011220D /* Build configuration list for PBXNativeTarget "CarRemoteControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +535,7 @@
 				16298CBA1DD330260011220D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
