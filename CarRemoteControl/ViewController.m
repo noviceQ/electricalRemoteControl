@@ -53,8 +53,8 @@
         memset(&serverAddr, 0, sizeof(serverAddr));
         serverAddr.sin_len = sizeof(serverAddr);
         serverAddr.sin_family = AF_INET;
-        serverAddr.sin_port = htons(1234);
-        serverAddr.sin_addr.s_addr = inet_addr([@"172.16.2.123" UTF8String]);
+        serverAddr.sin_port = htons(8888);
+        serverAddr.sin_addr.s_addr = inet_addr([@"192.168.4.1" UTF8String]);
         NSLog(@"start connecting .....");
         err = connect(_clientSocketHandler, (const struct  sockaddr *)&serverAddr, sizeof(serverAddr));
         if (err != 0) {
@@ -84,9 +84,12 @@
         [self alertDisplay:@"socket 错误"];
         return;
     }
+//    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+//        
+//    });
     send(_clientSocketHandler,message ,messageStr.length, 0);
     char buffer[1024];
-    read(_clientSocketHandler, buffer, 1024);
+//    read(_clientSocketHandler, buffer, 1024);
     printf("recev = %s\n",buffer);
 }
 
@@ -107,23 +110,27 @@
 }
 - (IBAction)turnUp:(id)sender {
     self.displayLabel.text = @"Up";
-    [self sendMsg:@"Up"];
+    [self sendMsg:@"U"];
 }
 
 - (IBAction)turnRight:(id)sender {
     self.displayLabel.text = @"Right";
-    [self sendMsg:@"Right"];
+    [self sendMsg:@"R"];
 }
 - (IBAction)turnDown:(id)sender {
     self.displayLabel.text = @"Down";
-    [self sendMsg:@"Down"];
+    [self sendMsg:@"D"];
 }
 - (IBAction)turnLeft:(id)sender {
     self.displayLabel.text = @"Left";
-    [self sendMsg:@"Left"];
+    [self sendMsg:@"L"];
 }
 - (IBAction)Reconnect:(id)sender {
     [self bsicSetting];
+}
+- (IBAction)turnStop:(id)sender {
+    self.displayLabel.text = @"Stop";
+    [self sendMsg:@"S"];
 }
 
 
